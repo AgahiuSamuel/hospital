@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container {
+  background-color: #ffff;
+  padding: 0 40px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  /* border-radius: 70px; */
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action {
+  background-color: rgb(39, 39, 224);
+  color: #fff;
+  height: 28px;
+  width: 70px;
+  border: none;
+  border-radius: 3px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 25px;
+  margin: 4px;
+  background-color: rgb(39, 39, 224);
+  transition: all 0.3s ease-in-out;
+}
+
+.action:hover {
+  opacity: 0.97;
+}
+
+.action:active {
+  scale: 1.02;
+}
+
+
+.bank .container {
+  background-color: #ffff;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bank .container h1{
+  font-size: 40px;
+}
+.word {
+  max-width: 30rem;
+}
+
+.blue {
+  background-color: rgb(39, 39, 224);
+  color: #fff;
+  height: 28px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+}
+
+.blue:hover {
+  opacity: 0.97;
+}
+
+.blue:active {
+  scale: 1.02;
+}
+
+.photo {
+  height: 320px;
+  width: 290px;
+}
+
+.explorer .container {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: transparent;
+  border: 1px solid rgb(39, 39, 224);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  color: rgb(39, 39, 224);
+}
+
+.box:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(39, 39, 224);
+  color: #ffff;
+}
+
+.school .container {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.second {
+  border: none;
+  background-color: #ffff;
+  border-radius: 15px;
+  height: 150px;
+  width: 200px;
+  text-align: left;
+  padding: 20px 10px;
+  transition: 0.3s;
+}
+
+.one {
+  font-size: 25px;
+  color: rgb(31, 30, 30);
+  background-color: rgb(230, 230, 230);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second:hover {
+  background-color: rgb(39, 39, 224);
+  color: #ffff;
+}
+
+.one:hover {
+  color: #ffff;
+  background-color: rgb(97, 97, 255);
+}
+
+.church .container {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AI {
+  height: 500px;
+  width: 500px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.three {
+  background-color: #ffff;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 15px;
+  height: 80px;
+  width: 500px;
+  padding: 10px 10px;
+  margin: 20px 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.three:hover {
+  background-color: rgb(39, 39, 224);
+  color: #ffff;
+  /* box-shadow:black 20px; */
+}
+
+.four {
+  font-size: xx-large;
+}
+
+.sports .container {
+  background-color: #ffff;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.passage {
+  max-width: 38rem;
+}
+
+.tennis {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.five {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* padding:5px 50px; */
+  padding-left: 55px;
+}
+
+.court {
+  background-color: salmon;
+  height: 80px;
+  width: 80px;
+  border-top-left-radius: 100%;
+}
+
+.basket {
+  height: 80px;
+  width: 80px;
+}
+
+.goal {
+  height: 240px;
+  width: 220px;
+}
+
+.net {
+  height: 170px;
+  width: 150px;
+}
+
+.seven {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lawn {
+  width: 70px;
+  height: 75px;
+}
+
+.mowers {
+  background-color: rgb(1, 73, 121);
+  width: 70px;
+  height: 75px;
+  border-bottom-right-radius: 100%;
+}
+
+.medicines {
+  width: 150px;
+  height: 71px;
+}
+
+.religion .container {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.science .container {
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.third {
+  width: 330px;
+  background-color: #ffff;
+  border-radius: 20px;
+
+  /* align-items: center; */
+}
+
+.pluto {
+  width: 330px;
+  height: 280px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.fourth {
+  padding: 5px 10px;
+}
+
+.fifth {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.saturn {
+  background-color: #ffff;
+  color: rgb(39, 39, 224);
+  border: 1px solid rgb(39, 39, 224);
+  font-size: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.saturn:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(39, 39, 224);
+  color: #ffff;
+}
+
+.article {
+  color: rgb(39, 39, 224);
+  font-size: small;
+  font-weight: bold;
+}
+
+.jupiter {
+  font-size: small;
+}
+
+.moon {
+  color: rgb(39, 39, 224);
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.recreation .container {
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grammar {
+  max-width: 19rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.sixth {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  border: none;
+  background-color: rgb(230, 230, 230);
+  height: 30px;
+  width: 130px;
+}
+
+.seventh {
+  border: 1px solid rgb(39, 39, 224);
+  color: rgb(39, 39, 224);
+  height: 30px;
+  width: 30px;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.seventh:hover {
+  border: none;
+  background-color: rgb(39, 39, 224);
+  color: #fff;
+}
+
+.seventh:active {
+  scale: 1.02;
+}
